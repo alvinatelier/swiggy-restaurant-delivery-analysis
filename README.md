@@ -1,12 +1,12 @@
 # Swiggy Restaurant & Delivery Performance Analysis
 
-A beginner-friendly business analysis project using **Excel and Microsoft Power BI** to analyze restaurant presence, pricing, customer ratings, food categories, and delivery performance.
+A business analytics portfolio project using **Microsoft Excel and Power BI** to explore restaurant presence, pricing, customer ratings, food categories, and delivery performance across locations.
 
-## Business Objective
+## 📊 Project Overview
 
-Analyze restaurant and delivery-related data to identify patterns across cities, areas, restaurants, food categories, pricing, customer ratings, and delivery times, and translate the findings into practical business questions and recommendations.
+The goal of this project is to turn restaurant and delivery data into clear business insights that can support operational and market-level decision making.
 
-## Key Business Questions
+### Business Questions
 
 - Which cities and areas have the largest restaurant presence?
 - Which locations have relatively higher delivery times?
@@ -15,16 +15,17 @@ Analyze restaurant and delivery-related data to identify patterns across cities,
 - Which restaurants have high rating volume or lower ratings that may warrant investigation?
 - Which areas could be prioritized for operational review?
 
-## Tools Used
+## 🛠️ Tools & Skills
 
-- **Microsoft Excel** — data preparation, formulas, PivotTables, KPI analysis
-- **Power BI** — data modeling, DAX, interactive dashboarding, KPI visualization and business analysis
+- **Microsoft Excel** — data cleaning, formulas, PivotTables, KPI analysis
+- **Power BI** — data modeling, DAX, interactive dashboards and visualization
+- **Business Analysis** — descriptive analysis, pattern identification and recommendations
 
-## Dataset
+## 📁 Dataset
 
-The project uses a Swiggy restaurant dataset containing restaurant, location, pricing, rating, and delivery-time fields.
+The project uses a Swiggy restaurant dataset containing restaurant, location, pricing, rating and delivery-time information.
 
-The dataset includes fields such as:
+Key fields include:
 
 - ID
 - Area
@@ -37,20 +38,29 @@ The dataset includes fields such as:
 - Address
 - Delivery Time
 
-## Analysis Workflow
+## 🔄 Analysis Workflow
 
 **Raw Data → Data Quality Checks → Data Preparation → Excel/PivotTable Analysis → Power BI Dashboard → Business Insights → Recommendations**
 
-## Power BI Dashboard
+## 📸 Dashboard Preview
 
-The dashboard is organized into four analytical pages:
+### Dashboard Overview
 
-1. **Executive Overview** — headline KPIs and overall performance view
-2. **City & Location Analysis** — restaurant presence, pricing, ratings and delivery performance by location
-3. **Restaurant & Food Analysis** — restaurant-level and food-category analysis
-4. **Delivery & Business Insights** — delivery-time patterns and areas requiring further investigation
+![Dashboard Overview](images/dashboard-overview.png)
 
-## Key Metrics
+### City Analysis
+
+![City Analysis](images/city-analysis.png)
+
+### Restaurant Analysis
+
+![Restaurant Analysis](images/restaurant-analysis.png)
+
+### KPI Summary
+
+![KPI Summary](images/kpi-summary.png)
+
+## 📈 Key Metrics
 
 The project focuses on consistently defined metrics including:
 
@@ -64,25 +74,26 @@ The project focuses on consistently defined metrics including:
 
 > **Metric note:** Average listed price represents the price field available in the dataset. It should not be interpreted as average order value or revenue because the dataset does not contain transaction-level sales data.
 
-## Business Analysis Approach
+## 💡 Business Analysis Approach
 
-The analysis focuses on descriptive and diagnostic questions rather than claiming causation. For example, relationships between price, ratings, restaurant presence, and delivery time are treated as patterns that may require further investigation rather than proof that one factor directly causes another.
+The analysis focuses on descriptive and diagnostic questions rather than claiming causation. Relationships between price, ratings, restaurant presence and delivery time are treated as patterns requiring further investigation rather than proof that one factor directly causes another.
 
-## Project Files
+## 📂 Project Files
 
-- `PowerBI/` — Power BI report
-- `Excel/` — supporting Excel analysis
-- `Screenshots/` — dashboard previews
+| File | Purpose |
+|---|---|
+| `swiggy_data.xlsx` | Source dataset and Excel analysis |
+| `swiggy project powerbi.pbix` | Power BI report |
+| `images/` | Dashboard preview screenshots |
 
-## Limitations
+## ⚠️ Limitations
 
-- The dataset is observational and does not contain order-level revenue, profit, customer-level, or transaction-level information.
+- The dataset is observational and does not contain order-level revenue, profit, customer-level or transaction-level information.
 - Listed price should not be treated as actual customer spend.
 - Relationships observed in the dashboard do not establish causation.
 - Some analytical categories are defined for this project and may not represent official Swiggy classifications.
 
-## Author
+## 👤 Author
 
-**Alvin Atelier**
-
+**Alvin Atelier**  
 Business Analytics / Business Analyst Portfolio Project
